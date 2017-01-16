@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0523FAF575FFB15DEEA7CC6C /* Pods_Damon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0434D6719ED5C0141DB0B004 /* Pods_Damon.framework */; };
+		F068893D1E287E49007D5ED9 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F068893C1E287E49007D5ED9 /* BaseTableViewController.m */; };
+		F06889401E28BB74007D5ED9 /* DamonRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F068893F1E28BB74007D5ED9 /* DamonRequest.m */; };
+		F06889441E28CD1E007D5ED9 /* SongModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F06889431E28CD1E007D5ED9 /* SongModel.m */; };
+		F07466341E1F462000861B9F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07466331E1F462000861B9F /* FirstViewController.m */; };
+		F07466371E1F47F300861B9F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07466361E1F47F300861B9F /* BaseViewController.m */; };
+		F074663A1E1F709E00861B9F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F07466391E1F709E00861B9F /* SecondViewController.m */; };
+		F09FF2721E1DDD34002DA70F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F09FF2711E1DDD34002DA70F /* main.m */; };
+		F09FF2751E1DDD34002DA70F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F09FF2741E1DDD34002DA70F /* AppDelegate.m */; };
+		F09FF2781E1DDD34002DA70F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F09FF2771E1DDD34002DA70F /* MainViewController.m */; };
+		F09FF27D1E1DDD34002DA70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09FF27C1E1DDD34002DA70F /* Assets.xcassets */; };
+		F0DAEEE11E24835100166E6E /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0DAEEE01E24835100166E6E /* OtherViewController.m */; };
+		F0DAEEEC1E24903500166E6E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0DAEEEE1E24903500166E6E /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0434D6719ED5C0141DB0B004 /* Pods_Damon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Damon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEACA2B09B336DD1799783E /* Pods-Damon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damon.release.xcconfig"; path = "Pods/Target Support Files/Pods-Damon/Pods-Damon.release.xcconfig"; sourceTree = "<group>"; };
+		81513CD0A2B36535F7817391 /* Pods-Damon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Damon/Pods-Damon.debug.xcconfig"; sourceTree = "<group>"; };
+		F068893B1E287E39007D5ED9 /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		F068893C1E287E49007D5ED9 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		F068893E1E28BB68007D5ED9 /* DamonRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DamonRequest.h; sourceTree = "<group>"; };
+		F068893F1E28BB74007D5ED9 /* DamonRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DamonRequest.m; sourceTree = "<group>"; };
+		F06889421E28CD11007D5ED9 /* SongModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongModel.h; sourceTree = "<group>"; };
+		F06889431E28CD1E007D5ED9 /* SongModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongModel.m; sourceTree = "<group>"; };
+		F07466321E1F461200861B9F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F07466331E1F462000861B9F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F07466351E1F47E700861B9F /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F07466361E1F47F300861B9F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F07466381E1F709500861B9F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F07466391E1F709E00861B9F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F09FF26D1E1DDD34002DA70F /* Damon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09FF2711E1DDD34002DA70F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F09FF2731E1DDD34002DA70F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F09FF2741E1DDD34002DA70F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F09FF2761E1DDD34002DA70F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F09FF2771E1DDD34002DA70F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F09FF27C1E1DDD34002DA70F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09FF2811E1DDD34002DA70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09FF2871E1DDEF0002DA70F /* DamonPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DamonPrefix.pch; sourceTree = "<group>"; };
+		F09FF28B1E1E2114002DA70F /* ConstantSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConstantSettings.h; sourceTree = "<group>"; };
+		F0DAEEDF1E24834700166E6E /* OtherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		F0DAEEE01E24835100166E6E /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		F0DAEEE21E24869000166E6E /* InlineMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InlineMethod.h; sourceTree = "<group>"; };
+		F0DAEEED1E24903500166E6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F0DAEEEF1E24904700166E6E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09FF26A1E1DDD34002DA70F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0523FAF575FFB15DEEA7CC6C /* Pods_Damon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFADBAE2FE4F27D186B101C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81513CD0A2B36535F7817391 /* Pods-Damon.debug.xcconfig */,
+				3EEACA2B09B336DD1799783E /* Pods-Damon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F06889411E28CC7B007D5ED9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F06889421E28CD11007D5ED9 /* SongModel.h */,
+				F06889431E28CD1E007D5ED9 /* SongModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F074662D1E1F3D8700861B9F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F074662E1E1F3F8000861B9F /* TAB1 */,
+				F074662F1E1F3F9300861B9F /* TAB2 */,
+				F07466301E1F3F9B00861B9F /* TAB3 */,
+				F07466311E1F3FAA00861B9F /* TAB4 */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		F074662E1E1F3F8000861B9F /* TAB1 */ = {
+			isa = PBXGroup;
+			children = (
+				F07466321E1F461200861B9F /* FirstViewController.h */,
+				F07466331E1F462000861B9F /* FirstViewController.m */,
+			);
+			name = TAB1;
+			sourceTree = "<group>";
+		};
+		F074662F1E1F3F9300861B9F /* TAB2 */ = {
+			isa = PBXGroup;
+			children = (
+				F07466381E1F709500861B9F /* SecondViewController.h */,
+				F07466391E1F709E00861B9F /* SecondViewController.m */,
+			);
+			name = TAB2;
+			sourceTree = "<group>";
+		};
+		F07466301E1F3F9B00861B9F /* TAB3 */ = {
+			isa = PBXGroup;
+			children = (
+				F06889411E28CC7B007D5ED9 /* Model */,
+				F0DAEEDF1E24834700166E6E /* OtherViewController.h */,
+				F0DAEEE01E24835100166E6E /* OtherViewController.m */,
+			);
+			name = TAB3;
+			sourceTree = "<group>";
+		};
+		F07466311E1F3FAA00861B9F /* TAB4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TAB4;
+			sourceTree = "<group>";
+		};
+		F09FF2641E1DDD34002DA70F = {
+			isa = PBXGroup;
+			children = (
+				F09FF26F1E1DDD34002DA70F /* Damon */,
+				F09FF26E1E1DDD34002DA70F /* Products */,
+				CEFADBAE2FE4F27D186B101C /* Pods */,
+				F301E38AD2CDA285600424E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F09FF26E1E1DDD34002DA70F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09FF26D1E1DDD34002DA70F /* Damon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09FF26F1E1DDD34002DA70F /* Damon */ = {
+			isa = PBXGroup;
+			children = (
+				F0DAEEE31E248F0A00166E6E /* International */,
+				F074662D1E1F3D8700861B9F /* Modules */,
+				F09FF28E1E1E3A41002DA70F /* Extension */,
+				F09FF28A1E1E2089002DA70F /* Configuration */,
+				F09FF2761E1DDD34002DA70F /* MainViewController.h */,
+				F09FF2771E1DDD34002DA70F /* MainViewController.m */,
+				F07466351E1F47E700861B9F /* BaseViewController.h */,
+				F07466361E1F47F300861B9F /* BaseViewController.m */,
+				F068893B1E287E39007D5ED9 /* BaseTableViewController.h */,
+				F068893C1E287E49007D5ED9 /* BaseTableViewController.m */,
+				F09FF27C1E1DDD34002DA70F /* Assets.xcassets */,
+				F09FF2701E1DDD34002DA70F /* Supporting Files */,
+			);
+			path = Damon;
+			sourceTree = "<group>";
+		};
+		F09FF2701E1DDD34002DA70F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F09FF2731E1DDD34002DA70F /* AppDelegate.h */,
+				F09FF2741E1DDD34002DA70F /* AppDelegate.m */,
+				F09FF2711E1DDD34002DA70F /* main.m */,
+				F09FF2811E1DDD34002DA70F /* Info.plist */,
+				F09FF2871E1DDEF0002DA70F /* DamonPrefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F09FF28A1E1E2089002DA70F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F09FF28B1E1E2114002DA70F /* ConstantSettings.h */,
+				F0DAEEE21E24869000166E6E /* InlineMethod.h */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		F09FF28E1E1E3A41002DA70F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F068893E1E28BB68007D5ED9 /* DamonRequest.h */,
+				F068893F1E28BB74007D5ED9 /* DamonRequest.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		F0DAEEE31E248F0A00166E6E /* International */ = {
+			isa = PBXGroup;
+			children = (
+				F0DAEEEE1E24903500166E6E /* Localizable.strings */,
+			);
+			name = International;
+			sourceTree = "<group>";
+		};
+		F301E38AD2CDA285600424E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0434D6719ED5C0141DB0B004 /* Pods_Damon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09FF26C1E1DDD34002DA70F /* Damon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09FF2841E1DDD34002DA70F /* Build configuration list for PBXNativeTarget "Damon" */;
+			buildPhases = (
+				90E3399BFE76A420D155F022 /* [CP] Check Pods Manifest.lock */,
+				F09FF2691E1DDD34002DA70F /* Sources */,
+				F09FF26A1E1DDD34002DA70F /* Frameworks */,
+				F09FF26B1E1DDD34002DA70F /* Resources */,
+				96722C5DEC495EEA5AB0FD7F /* [CP] Embed Pods Frameworks */,
+				A61DC50E9235EA222C6EC5DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Damon;
+			productName = Damon;
+			productReference = F09FF26D1E1DDD34002DA70F /* Damon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09FF2651E1DDD34002DA70F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Pioneer;
+				TargetAttributes = {
+					F09FF26C1E1DDD34002DA70F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 44VAD62PGX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F09FF2681E1DDD34002DA70F /* Build configuration list for PBXProject "Damon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = F09FF2641E1DDD34002DA70F;
+			productRefGroup = F09FF26E1E1DDD34002DA70F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09FF26C1E1DDD34002DA70F /* Damon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09FF26B1E1DDD34002DA70F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09FF27D1E1DDD34002DA70F /* Assets.xcassets in Resources */,
+				F0DAEEEC1E24903500166E6E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90E3399BFE76A420D155F022 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96722C5DEC495EEA5AB0FD7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Damon/Pods-Damon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A61DC50E9235EA222C6EC5DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Damon/Pods-Damon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09FF2691E1DDD34002DA70F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F074663A1E1F709E00861B9F /* SecondViewController.m in Sources */,
+				F09FF2781E1DDD34002DA70F /* MainViewController.m in Sources */,
+				F07466371E1F47F300861B9F /* BaseViewController.m in Sources */,
+				F09FF2751E1DDD34002DA70F /* AppDelegate.m in Sources */,
+				F06889441E28CD1E007D5ED9 /* SongModel.m in Sources */,
+				F09FF2721E1DDD34002DA70F /* main.m in Sources */,
+				F0DAEEE11E24835100166E6E /* OtherViewController.m in Sources */,
+				F06889401E28BB74007D5ED9 /* DamonRequest.m in Sources */,
+				F068893D1E287E49007D5ED9 /* BaseTableViewController.m in Sources */,
+				F07466341E1F462000861B9F /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0DAEEEE1E24903500166E6E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0DAEEED1E24903500166E6E /* en */,
+				F0DAEEEF1E24904700166E6E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09FF2821E1DDD34002DA70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F09FF2831E1DDD34002DA70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09FF2851E1DDD34002DA70F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81513CD0A2B36535F7817391 /* Pods-Damon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 44VAD62PGX;
+				GCC_PREFIX_HEADER = Damon/DamonPrefix.pch;
+				INFOPLIST_FILE = Damon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pioneer.ios.Damon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F09FF2861E1DDD34002DA70F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEACA2B09B336DD1799783E /* Pods-Damon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 44VAD62PGX;
+				GCC_PREFIX_HEADER = Damon/DamonPrefix.pch;
+				INFOPLIST_FILE = Damon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.pioneer.ios.Damon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09FF2681E1DDD34002DA70F /* Build configuration list for PBXProject "Damon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09FF2821E1DDD34002DA70F /* Debug */,
+				F09FF2831E1DDD34002DA70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09FF2841E1DDD34002DA70F /* Build configuration list for PBXNativeTarget "Damon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09FF2851E1DDD34002DA70F /* Debug */,
+				F09FF2861E1DDD34002DA70F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09FF2651E1DDD34002DA70F /* Project object */;
+}

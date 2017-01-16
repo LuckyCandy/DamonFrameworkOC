@@ -1,0 +1,6 @@
+target 'Damon' do
+	use_frameworks!
+	pod 'MJRefresh'
+	pod 'MJExtension'
+	pod 'AFNetworking'
+end
